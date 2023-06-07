@@ -1,12 +1,386 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>福ベーグル採用サイト</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fuwatto.css">
+    <link rel="stylesheet" href="./css/particle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/particle.js"></script>
+    <script src="./js/fuwatto.js"></script>
 </head>
+
 <body>
-    <h1>Git/GitHub トレーニング</h1>
+    <div class="l-container-bg">
+        <nav class="l-container-navi itemC">
+            <ul class="l-container-navi-list">
+                <li class="l-container-navi-item">
+                    <a href="#top">トップ</a>
+                </li>
+                <li class="l-container-navi-item">
+                    <a href="#message">メッセージ</a>
+                </li>
+                <li class="l-container-navi-item">
+                    <a href="#philosophy">ビジョン･ミッション</a>
+                </li>
+                <li class="l-container-navi-item">
+                    <a href="#merit">グッドポイント</a>
+                </li>
+                <li class="l-container-navi-item">
+                    <a href="#group">グループ企業</a>
+                </li>
+                <li class="l-container-navi-item">
+                    <a href="#interview">インタビュー</a>
+                </li>
+                <li class="l-container-navi-item">
+                    <a href="#requirement">募集要項</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="l-container-image-r itemA">
+            <figure class="l-container-image-r-inner container">
+                <img class="image" src="./images/top-r1.png" alt="">
+                <img class="image" src="./images/top-r2.png" alt="">
+                <img class="image" src="./images/top-r3.png" alt="">
+            </figure>
+        </div>
+        <div class="l-container-image-d itemB">
+            <div class="top-logo">
+                <img src="./images/top-logo.png" alt="">
+            </div>
+            <figure class="l-container-image-d-inner container">
+                <img class="image" src="./images/top-d1.png" alt="">
+                <img class="image" src="./images/top-d2.png" alt="">
+                <img class="image" src="./images/top-d3.png" alt="">
+            </figure>
+        </div>
+    </div>
+    <main class="l-contents">
+        <div id="canvas-wrap">
+            <!-- CANVAS BG -->
+            <canvas id="canvas-container"></canvas>
+        </div>
+        <div class="l-contents-wrapper">
+            <!-- HEADER -->
+            <header id="header" class="l-header">
+                <figure class="header-logo">
+                    <img src="./images/logo-red.png" alt="">
+                </figure>
+                <!-- BURGER MENU -->
+                <div class="hamburger-menu">
+                    <input type="checkbox" id="menu-btn-check">
+                    <label for="menu-btn-check" class="menu-btn"><span></span></label>
+                    <nav class="menu-content">
+                        <ul>
+                            <li>
+                                <a href="#">メニューリンク1</a>
+                            </li>
+                            <li>
+                                <a href="#">メニューリンク2</a>
+                            </li>
+                            <li>
+                                <a href="#">メニューリンク3</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <section id="top" class="l-top">
+                <div class="l-top-inner">
+                    <h1 class="l-top-copy">
+                        <img src="./images/top-copy.png" alt="">
+                    </h1>
+                    <figure class="l-top-img">
+                        <img src="./images/top-visual.png" alt="">
+                    </figure>
+                </div>
+            </section>
+            <section id="massage" class="l-message">
+                <h2>
+                    <span class="fadeUpTrigger">女性の活躍する</span>
+                    <span class="fadeUpTrigger">場所を創る</span>
+                </h2>
+                <p>
+                    <span class="fadeUpTrigger">仕事だって</span>
+                    <span class="fadeUpTrigger">家庭だって子育てだって</span>
+                    <span class="fadeUpTrigger">あきらめたくない。</span>
+                </p>
+                <p>
+                    <span class="fadeUpTrigger">チャンスを掴んで</span>
+                    <span class="fadeUpTrigger">人生を輝かせたい</span>
+                    <span class="fadeUpTrigger">そんな想いをもつあなたへ。</span>
+                </p>
+            </section>
+            <section id="philosophy" class="l-philosophy">
+                <div class="l-vision">
+                    <figure class="l-vision-img is-rounded-right fadeUpTrigger">
+                        <img src="./images/vision-img.png" alt="">
+                    </figure>
+                    <div class="txtbox">
+                        <p class="title fadeUpTrigger">ビジョン</p>
+                        <h2 class="is-22 fadeUpTrigger">
+                            <span>私たちの姿で</span>
+                            <span>こどもたちの世界を</span>
+                            <span>ワクワクさせる！</span>
+                        </h2>
+                        <p class="is-mini fadeUpTrigger">
+                            女性が輝きながら働くことでこどもたちの世界もワクワクに
+                        </p>
+                    </div>
+                </div>
+                <div class="l-mission">
+                    <figure class="l-mission-img1 item1">
+                        <img src="./images/mission-img1.png" alt="">
+                    </figure>
+                    <figure class="l-mission-img2 item2">
+                        <img src="./images/mission-img2.png" alt="">
+                    </figure>
+                    <div class="txtbox item3">
+                        <p class="title fadeUpTrigger">ミッション</p>
+                        <h2 class="is-22 fadeUpTrigger">
+                            <span>世界一美味しいベーグルで</span>
+                            <span>女性の活躍する場所を創る</span>
+                        </h2>
+                        <p class="is-mini fadeUpTrigger">
+                            女性が輝きながら働くことでこどもたちの世界もワクワクに
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="merit" class="l-merit">
+                <div class="l-merit-inner">
+                    <div class="l-merit-heading">
+                        <p class="title">グッドポイント</p>
+                        <h2 class="l-merit-heading">
+                            福ベーグルグループだから実現できる働き方
+                        </h2>
+                    </div>
+                    <div class="l-merit-box">
+                        <div class="l-merit-box1">
+                            <div class="l-merit-box-heading">
+                                <div class="num">
+                                    <img src="./images/merit-num1.png" alt="">
+                                </div>
+                                <p class="cute_en">For Women</p>
+                            </div>
+                            <p class="l-merit-text">
+                                女性のみの職場なので子育てなどの理解協力を得られる
+                            </p>
+                        </div>
+                        <div class="l-merit-box2">
+                            <div class="l-merit-box-heading">
+                                <div class="num">
+                                    <img src="./images/merit-num2.png" alt="">
+                                </div>
+                                <p class="cute_en">Career Up</p>
+                            </div>
+                            <p class="l-merit-text">
+                                女性のライフステージに合わせたキャリアアップが可能 </p>
+                        </div>
+                        <div class="l-merit-box3">
+                            <div class="l-merit-box-heading">
+                                <div class="num">
+                                    <img src="./images/merit-num3.png" alt="">
+                                </div>
+                                <p class="cute_en">Opportunity</p>
+                            </div>
+                            <p class="l-merit-text">
+                                若くても年長者でも、店長やイベント運営のチャンスがある </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="slide1" class="l-slide1">
+                <div class="d-demo">
+                    <div class="d-demo__wrap">
+                        <ul class="d-demo__list d-demo__list--left">
+                            <li class="d-demo__item"><img src="./images/test01.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test02.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test03.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test04.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test05.jpg" alt></li>
+                            <li class="d-demo__item"><img src="./images/test06.jpg" alt></li>
+                        </ul>
+                        <ul class="d-demo__list d-demo__list--left">
+                            <li class="d-demo__item"><img src="./images/test01.jpg" alt></li>
+                            <li class="d-demo__item"><img src="./images/test02.jpg" alt></li>
+                            <li class="d-demo__item"><img src="./images/test03.jpg" alt></li>
+                            <li class="d-demo__item"><img src="./images/test04.jpg" alt></li>
+                            <li class="d-demo__item"><img src="./images/test05.jpg" alt></li>
+                            <li class="d-demo__item"><img src="./images/test06.jpg" alt></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- GROUP -->
+            <section id="group" class="l-group">
+                <div class="l-group-inner">
+                    <div class="l-group-heading">
+                        <p class="title">グループ企業</p>
+                        <h2 class="l2-heading is-marginbot10">私たちの事業</h2>
+                        <p class="l-group-text">
+                            女性の活躍とこどもたちの世界をワクワクさせるために様々な事業を展開しています。
+                        </p>
+                    </div>
+                    <div class="l-group-box">
+                        <div class="l-group-box1">
+                            <div class="box-hover">
+                                <a href="">
+                                    <div class="flex-and-absolute">
+                                        <h3 class="company-heading is-shadow">
+                                            福ベーグル(株)
+                                        </h3>
+                                        <button class="view-details">
+                                            <div class="view-icon">
+                                                <img src="./images/btn-view-details.png" alt="">
+                                            </div>
+                                            <p class="c-lead is-white is-shadow">詳しく見る</p>
+                                        </button>
+                                    </div>
+                                    <figure class="group-fukubagel-img group-img is-rounded">
+                                    </figure>
+                                </a>
+                            </div>
+                            <p class="l-group-text">
+                                びっくりするほど美味しいベーグルで女性の活躍する舞台を作ることを掲げて創業。仕事内容としてはメニュー開発、製造、販売、SNSへの投稿などになります。
+                            </p>
+                        </div>
+                        <div class="l-group-box2">
+                            <div class="box-hover">
+                                <a href="">
+                                    <div class="flex-and-absolute">
+                                        <h3 class="company-heading is-shadow">
+                                            <span>ARIGATO</span>
+                                            <span>COMPANY(株)</span>
+                                        </h3>
+                                        <button class="view-details">
+                                            <div class="view-icon">
+                                                <img src="./images/btn-view-details.png" alt="">
+                                            </div>
+                                            <p class="c-lead is-white is-shadow">詳しく見る</p>
+                                        </button>
+                                    </div>
+                                    <figure class="group-arigato-img group-img is-rounded">
+                                    </figure>
+                                </a>
+                            </div>
+                            <p class="l-group-text">
+                                子どもたちの世界をワクワクさせることを掲げ、園児が来たくなる･親御様が預けたくなる･そんな建築デザインの会社です。
+                            </p>
+                        </div>
+                        <div class="l-group-box3">
+                            <div class="box-hover">
+                                <a href="">
+                                    <div class="flex-and-absolute">
+                                        <h3 class="company-heading is-shadow">
+                                            <span>TOMORROW</span>
+                                            <span>COMPANY(株)</span>
+                                        </h3>
+                                        <button class="view-details">
+                                            <div class="view-icon">
+                                                <img src="./images/btn-view-details.png" alt="">
+                                            </div>
+                                            <p class="c-lead is-white is-shadow">詳しく見る</p>
+                                        </button>
+                                    </div>
+                                    <figure class="group-tomorrow-img group-img is-rounded">
+                                    </figure>
+                                </a>
+                            </div>
+                            <p class="l-group-text">
+                                ｢一人ひとりの個性が生かされた場所づくり、仕事づくり｣を開業以来最も大切にしている会社です。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="interview" class="l-interview l-template">
+                <div class="l-interview-inner">
+                    <div class="l-interview-heading">
+                        <p class="title">インタビュー</p>
+                        <h2 class="l2-heading">
+                            活躍する先輩たち
+                        </h2>
+                        <p class="normal">
+                            福ベーグルグループで活躍する先輩たちをご紹介しています。
+                        </p>
+                        <a href="">
+                            <button class="view-details">
+                                <div class="view-icon">
+                                    <img src="./images/btn-view-details.png" alt="">
+                                </div>
+                                <p class="c-lead">詳しく見る</p>
+                            </button>
+                        </a>
+                    </div>
+                    <figure class="l-interview-img normal_img">
+                        <img src="./images/interview-img.png" alt="">
+                    </figure>
+                    <p class="normal">インタビュー1</p>
+                </div>
+            </section>
+            <section id="requirement" class="l-requirement l-template">
+                <div class="l-requirement-inner l-template-inner">
+                    <div class="l-requirement-heading l-template-heading">
+                        <p class="title">一緒に活躍できる人の特徴</p>
+                        <h2 class="l2-heading">
+                            募集要項
+                        </h2>
+                        <p class="normal">
+                            こんな方であれば福ベーグルでご活躍できる、そんな特徴をご紹介します。
+                        </p>
+                        <a href="">
+                            <button class="view-details">
+                                <div class="view-icon">
+                                    <img src="./images/btn-view-details.png" alt="">
+                                </div>
+                                <p class="c-lead">詳しく見る</p>
+                            </button>
+                        </a>
+                    </div>
+                    <figure class="l-interview-img l-template_img">
+                        <img src="" alt="">
+                    </figure>
+                </div>
+            </section>
+            <section id="recruit" class="l-recruit">
+                <div class="l-recruit-inner">
+                    <h2 class="c-lead">
+                        RECRUIT
+                    </h2>
+                    <p class="c-lead">
+                        未経験からでも勇気を持って始めたスタッフも
+                        多いです！一緒に活躍していきませんか？
+                    </p>
+                    <button class="l-recruit-btn">
+                        <a href="">応募する</a>
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="l-footer">
+        <figure class="l-footer-logo">
+            <img src="./images/footer-logo.png" alt="">
+        </figure>
+        <p class="copyright">
+            &copy; Fuku Bagel Group All rights reserved.
+        </p>
+    </footer>
+    </div>
+    <!-- ピッチ資料 -->
+    <!-- <iframe class="speakerdeck-iframe" frameborder="0"
+        src="https://speakerdeck.com/player/e636c356408849fb8ff7d6549b62bcbc" title="service_atsumaru_detail.pdf"
+        allowfullscreen="true"
+        style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 314;"
+        data-ratio="1.78343949044586"></iframe> -->
 </body>
+
 </html>

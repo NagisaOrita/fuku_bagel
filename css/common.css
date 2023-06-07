@@ -1,0 +1,645 @@
+html {
+    height: 100%;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
+    height: 100%;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+    color: #3C474F;
+    margin: 0;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    object-fit: cover;
+}
+
+figure {
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #45484C;
+    display: block;
+}
+
+li {
+    list-style-type: none;
+}
+
+.c-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 0;
+    background: #ccc;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+h1 {
+    font-family: "senobi-gothic", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 1.2px;
+}
+
+p.title {
+    color: var(--red);
+    font-family: 'Zen Kurenaido', 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 8px;
+}
+
+p.btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 160% */
+    letter-spacing: 0.32px;
+}
+
+li.pc-menu {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    /* identical to box height, or 187% */
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+}
+
+li.burger-menu {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    /* identical to box height, or 187% */
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+}
+
+h2.l-message {
+    letter-spacing: 3.4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+p.l-message {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 0.8px;
+}
+
+h2.l-vision {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    /* identical to box height, or 153% */
+    letter-spacing: 1.6px;
+}
+
+p.is-mini {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 22px;
+    /* or 216% */
+    letter-spacing: 1.2px;
+}
+
+p.cute_en {
+    font-family: 'Zen Kurenaido', 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--red);
+}
+
+p.l-merit-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    /* or 168% */
+    letter-spacing: 1.2px;
+}
+
+h3.l-group-heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 1.2px;
+    color: #fff;
+}
+
+.company-heading {
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+}
+
+.is-shadow {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.18);
+}
+
+.is-white {
+    color: #fff;
+}
+
+.is-red {
+    color: var(--red);
+}
+
+.is-black {
+    color: var(--black);
+}
+
+.is-22 {
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: 1.6px;
+}
+
+.is-marginbot10 {
+    margin-bottom: 10px;
+}
+
+.is-rounded {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.is-rounded-left {
+    border-top-left-radius: 20px;
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    border-bottom-left-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    overflow: hidden;
+}
+
+.is-rounded-right {
+    border-top-right-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-bottomright: 20px;
+    overflow: hidden;
+}
+
+
+h2.c-lead {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+}
+
+p.c-lead {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.32px;
+}
+
+.l2-heading {
+    margin-bottom: 10px;
+}
+
+:root {
+    --red: #C43238;
+    --lightyellow: #FDF4A8;
+    --yellow: #FFE400;
+    --blue: #009FBC;
+    --darkblue: #194369;
+    --black: #333333;
+}
+
+/* PC - BG */
+.l-container-bg {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: grid;
+    /* grid-template-columns: 50% 50%; */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    z-index: -2;
+}
+
+.itemA {
+    grid-row: 1/3;
+    grid-column: 2/2;
+}
+
+.itemB {
+    height: 100%;
+    align-items: end;
+    align-self: end;
+    background: var(--red);
+    position: relative;
+}
+
+.itemB figure {
+    position: absolute;
+    bottom: 0;
+}
+
+.itemC {
+    background: var(--red);
+}
+
+/* PC BG IMAGE */
+.container {
+	position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+	position: absolute;
+	width: 100%;
+    height: 100%;
+	opacity: 0;
+	animation: change-img-anim 30s infinite;
+}
+
+.image:nth-of-type(1) {
+	animation-delay: 0s;
+}
+.image:nth-of-type(2) {
+	animation-delay: 6s;
+}
+.image:nth-of-type(3) {
+	animation-delay: 12s;
+}
+
+@keyframes change-img-anim {
+	0%{ opacity: 0;}
+	10%{ opacity: 1;}
+	90%{ opacity: 1;}
+	100%{ opacity: 0;}
+}
+
+/* TOP LOGO */
+.l-container-image-d-inner{
+    height: 50%;
+}
+
+.l-container-image-d{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.top-logo{
+    width: 292px;
+    margin-right: calc(425px/2);
+    /* padding: 100px; */
+}
+
+/* MAIN */
+.l-contents {
+    position: relative;
+}
+
+.l-contents-wrapper {
+    z-index: 10;
+}
+
+/* RECRUIT */
+.l-recruit-inner {
+    background: var(--red);
+    color: #fff;
+    padding: 40px;
+}
+
+h2.c-lead::before {
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 100px;
+    background-color: #fff;
+    vertical-align: top;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+.l-recruit-btn {
+    text-align: center;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.l-recruit-btn a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.32px;
+    color: #FFFFFF;
+
+    padding: 10px 90px;
+    border: solid 1px #fff;
+    border-radius: 100px;
+}
+
+.l-recruit h2.c-lead {
+    margin-bottom: 10px;
+}
+
+/* HEADER */
+.l-header {
+    position: fixed;
+    width: 425px;
+    height: 100vh;
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    background: #fff;
+}
+
+.header-logo {
+    height: 5rem;
+    width: 15rem;
+}
+
+/* BURGER MENU */
+.hamburger-menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 0 auto;
+}
+
+.menu-btn {
+    /* top: 50%; */
+    right: 0;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    background-color: var(--red);
+}
+
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+.menu-btn span:before {
+    bottom: 8px;
+}
+
+.menu-btn span:after {
+    top: 8px;
+}
+
+#menu-btn-check:checked~.menu-btn span {
+    background-color: rgba(255, 255, 255, 0);
+    /*メニューオープン時は真ん中の線を透明にする*/
+}
+
+#menu-btn-check:checked~.menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+
+#menu-btn-check:checked~.menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+#menu-btn-check {
+    display: none;
+}
+
+#menu-btn-check {
+    display: none;
+}
+
+.menu-content {
+    width: 100em;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 80;
+    background-color: var(--red);
+}
+
+.menu-content ul {
+    padding: 70px 10px 0;
+}
+
+.menu-content ul li {
+    border-bottom: solid 1px #ffffff;
+    list-style: none;
+}
+
+.menu-content ul li a {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+    position: relative;
+}
+
+.menu-content ul li a::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 11px;
+    top: 16px;
+}
+
+.menu-content {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    /*leftの値を変更してメニューを画面外へ*/
+    z-index: 80;
+    background-color: var(--red);
+    transition: all 0.5s;
+    /*アニメーション設定*/
+}
+
+#menu-btn-check:checked~.menu-content {
+    left: 0;
+    /*メニューを画面内へ*/
+}
+
+#menu-btn-check:checked~.menu-content {
+    left: 0;
+    /*メニューを画面内へ*/
+}
+
+.l-contents,
+.l-footer {
+    width: 425px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* FOOTER */
+.l-footer-logo {
+    width: 300px;
+    margin: 40px auto 20px;
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.l-container-navi-list {
+    margin-top: 60px;
+    margin-left: 6.25vw;
+}
+
+.l-container-navi-item a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 1.2px;
+}
+.l-container-navi-item:not(:last-child){
+    margin-bottom: 10px;
+}
+.l-container-navi-item a::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: #fff;
+    vertical-align: top;
+    margin-top: 12px;
+    margin-right: 15px;
+}
+.l-container-navi-item:hover a,
+.l-container-navi-item:hover a::before{
+    color: var(--black);
+}
+.l-container-navi-item:hover a::before{
+    color: var(--black);
+    background-color: #000;
+}
+/*
+右から左へ
+----------------------------*/
+@keyframes infinity-scroll-left {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/*左から右へ----------------------------*/
+@keyframes infinity-scroll-right {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+/*IE11対策----------------------------*/
+_:-ms-lang(x)::-ms-backdrop,
+.d-demo {
+    display: -ms-grid;
+    overflow: hidden;
+}
+
+/*----------------------------*/
+.d-demo__wrap {
+    display: flex;
+    overflow: hidden;
+}
+
+.d-demo__list {
+    display: flex;
+    list-style: none;
+}
+
+.d-demo__list--left {
+    animation: infinity-scroll-left 95s infinite linear 0.5s both;
+}
+
+.d-demo__list--right {
+    animation: infinity-scroll-right 95s infinite linear 0.5s both;
+}
+
+.d-demo__item {
+    width: calc(100vw / 6);
+    margin-right: 10px;
+}
+
+.d-demo__item>img {
+    width: 100%;
+}

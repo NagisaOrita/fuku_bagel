@@ -1,0 +1,17 @@
+#canvas-wrap {
+    width: 100%;
+    width: 425px;
+    height: 100vh;
+    position: fixed;
+    position: -webkit-fixed;
+    background: #fff;
+    z-index: -1;
+}
+
+@supports (-webkit-background-clip: text) {
+    #canvas-txt p {
+        background: -webkit-linear-gradient(left, #ba65fd, #5aa5f8, #00d8ee);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
