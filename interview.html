@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>福ベーグル採用サイト</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/template.css">
+    <link rel="stylesheet" href="./css/fuwatto.css">
+    <link rel="stylesheet" href="./css/particle.css">
+    <link rel="stylesheet" href="./css/sp.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/particle.js"></script>
+    <script src="./js/fuwatto.js"></script>
+</head>
+
+<body>
+    <div class="l-container-bg">
+        <nav class="l-container-navi itemC">
+            <ul class="l-container-navi-list">
+                <li class="l-container-navi-item">
+                    <a href="./index.html">トップ</a>
+                </li>
+                <li class="l-container-navi-item">
+                    <a href="./index.html#message">メッセージ</a>
+                </li>
+                <li class="l-container-navi-item">
+                    <a href="./index.html#philosophy">ビジョン･ミッション</a>
+                </li>
+                <li class="l-container-navi-item">
+                    <a href="./index.html#merit">グッドポイント</a>
+                </li>
+                <li class="l-container-navi-item">
+                    <a href="./index.html#group">グループ企業</a>
+                </li>
+                <li class="l-container-navi-item">
+                    <a href="./interview.html">インタビュー</a>
+                </li>
+                <li class="l-container-navi-item">
+                    <a href="./index.html#requirement">募集要項</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="l-container-image-r itemA">
+            <figure class="l-container-image-r-inner container">
+                <img class="image" src="./images/top-r1.png" alt="">
+                <img class="image" src="./images/top-r2.png" alt="">
+                <img class="image" src="./images/top-r3.png" alt="">
+            </figure>
+        </div>
+        <div class="l-container-image-d itemB">
+            <div class="top-logo">
+                <figure class="top-logo-inner">
+                    <img src="./images/top-logo.png" alt="">
+                </figure>
+            </div>
+            <figure class="l-container-image-d-inner container">
+                <img class="image" src="./images/top-d1.png" alt="">
+                <img class="image" src="./images/top-d2.png" alt="">
+                <img class="image" src="./images/top-d3.png" alt="">
+            </figure>
+        </div>
+    </div>
+    <main class="l-contents">
+        <div id="canvas-wrap">
+            <!-- CANVAS BG -->
+            <canvas id="canvas-container"></canvas>
+        </div>
+        <div class="l-contents-wrapper">
+            <!-- HEADER -->
+            <header id="header" class="l-header">
+                <div class="l-header-inner">
+                    <div class="header-logo-wrapper">
+                        <p class="header-txt is-mini is-no-height">採用特設ページ</p>
+                        <figure class="header-logo">
+                            <img src="./images/header-logo.png" alt="">
+                        </figure>
+                    </div>
+                    <!-- BURGER MENU -->
+                    <div class="hamburger-menu">
+                        <input type="checkbox" id="menu-btn-check">
+                        <label for="menu-btn-check" class="menu-btn"><span></span></label>
+                        <nav class="menu-content">
+                            <ul>
+                                <li>
+                                    <a href="#">メニューリンク1</a>
+                                </li>
+                                <li>
+                                    <a href="#">メニューリンク2</a>
+                                </li>
+                                <li>
+                                    <a href="#">メニューリンク3</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+
+            <!-- TOP VISUAL -->
+            <div class="top-visual">
+                <div class="top-visual-inner">
+                    <h1 class="lv1-heading">
+                        INTERVIEW
+                    </h1>
+                </div>
+            </div>
+
+            <!-- MAIN CONTAINER -->
+            <div class="main-container">
+
+                <!-- PEOPLE 1 -->
+                <div class="l-people s-araki">
+                    <figure class="interview-img s-araki-img">
+                        <img src="./images/s-araki.png" alt="">
+                    </figure>
+                    <h2 class="lv2-heading l-name">
+                        荒木 早紀
+                    </h2>
+                    <table>
+                        <tr>
+                            <th>職種･役職</th>
+                            <td>正社員</td>
+                        </tr>
+                        <tr>
+                            <th>職種･役職</th>
+                            <td>2023/1/16</td>
+                        </tr>
+                        <tr>
+                            <th>生年月日</th>
+                            <td>1997/5/30</td>
+                        </tr>
+                        <tr>
+                            <th>出身</th>
+                            <td>群馬県</td>
+                        </tr>
+                        <tr>
+                            <th>前職</th>
+                            <td>左官職人</td>
+                        </tr>
+                    </table>
+                    <h2 class="lv2-heading is-red">
+                        私について
+                    </h2>
+                    <p class="normal-text">
+                        はじめまして！私は休日、夫と休みが合えばよく釣りに行っています。基本、平日休みなので、一人で過ごすことが多く、映画や買い物など、出かけるにも混雑してなくストレスフリーです！
+                    </p>
+                    <h2 class="lv2-heading is-red">
+                        私の働き方
+                    </h2>
+                    <p class="normal-text">
+                        高崎店にお客として通っていた頃、ちらりと製造現場も見えていたのですが、スタッフさんたちがイキイキと楽しそうにベーグルを作る姿を見て、興味が沸いたのがきっかけです！将来のことも考え、群馬県内で働きたいという思いと、元々建築系の職人だったこともあり身体を動かした仕事をしたい、という思いから入社を決めました。一福ベーグルのファンでもあったので、その一員として働けている今がとても有り難く思います。実は入社前は女性の職場のイメージは少しネガティブなものだったのですが、実際に働いてみて良い意味で覆りました！<br>
+                        女性に寄り添った職場で、スタッフ同士の助け合いが強く、急なお休みなど、小さなお子様がいても働きやすい環境がある職場です。また、お客様からの嬉しいお声はとても励みになります！<br>
+                        今年の秋、第一子を出産予定なのですが、子供がいてもイキイキと働くスタッフがたくさんいるため、産休育休後も復帰したいと思っています！
+                    </p>
+                    <h2 class="lv2-heading is-red">
+                        応募者の方へメッセージ
+                    </h2>
+                    <p class="normal-text">
+                        20代から50代までと年齢は様々ですが、分け隔てなく、生き生きとした楽しい、女性が働きやすい職場です！！
+                    </p>
+                </div>
+            </div>
+            <footer class="l-footer">
+                <figure class="l-footer-logo">
+                    <img src="./images/footer-logo.png" alt="">
+                </figure>
+                <p class="copyright is-mini">
+                    &copy; Fuku Bagel Group All rights reserved.
+                </p>
+            </footer>
+        </div>
+        <!-- ピッチ資料 -->
+        <!-- <iframe class="speakerdeck-iframe" frameborder="0"
+    src="https://speakerdeck.com/player/e636c356408849fb8ff7d6549b62bcbc" title="service_atsumaru_detail.pdf"
+    allowfullscreen="true"
+    style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 314;"
+    data-ratio="1.78343949044586"></iframe> -->
+</body>
+
+</html>

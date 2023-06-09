@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/fuwatto.css">
     <link rel="stylesheet" href="./css/particle.css">
+    <link rel="stylesheet" href="./css/sp.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./js/common.js"></script>
     <script src="./js/particle.js"></script>
     <script src="./js/fuwatto.js"></script>
+    
 </head>
 
 <body>
@@ -22,10 +24,10 @@
         <nav class="l-container-navi itemC">
             <ul class="l-container-navi-list">
                 <li class="l-container-navi-item">
-                    <a href="#top">トップ</a>
+                    <a href="./index.html">トップ</a>
                 </li>
                 <li class="l-container-navi-item">
-                    <a href="#message">メッセージ</a>
+                    <a href="./index.html">メッセージ</a>
                 </li>
                 <li class="l-container-navi-item">
                     <a href="#philosophy">ビジョン･ミッション</a>
@@ -37,7 +39,7 @@
                     <a href="#group">グループ企業</a>
                 </li>
                 <li class="l-container-navi-item">
-                    <a href="#interview">インタビュー</a>
+                    <a href="./interview.html">インタビュー</a>
                 </li>
                 <li class="l-container-navi-item">
                     <a href="#requirement">募集要項</a>
@@ -53,7 +55,9 @@
         </div>
         <div class="l-container-image-d itemB">
             <div class="top-logo">
-                <img src="./images/top-logo.png" alt="">
+                <figure class="top-logo-inner">
+                    <img src="./images/top-logo.png" alt="">
+                </figure>
             </div>
             <figure class="l-container-image-d-inner container">
                 <img class="image" src="./images/top-d1.png" alt="">
@@ -70,26 +74,31 @@
         <div class="l-contents-wrapper">
             <!-- HEADER -->
             <header id="header" class="l-header">
-                <figure class="header-logo">
-                    <img src="./images/logo-red.png" alt="">
-                </figure>
-                <!-- BURGER MENU -->
-                <div class="hamburger-menu">
-                    <input type="checkbox" id="menu-btn-check">
-                    <label for="menu-btn-check" class="menu-btn"><span></span></label>
-                    <nav class="menu-content">
-                        <ul>
-                            <li>
-                                <a href="#">メニューリンク1</a>
-                            </li>
-                            <li>
-                                <a href="#">メニューリンク2</a>
-                            </li>
-                            <li>
-                                <a href="#">メニューリンク3</a>
-                            </li>
-                        </ul>
-                    </nav>
+                <div class="l-header-inner">
+                    <div class="header-logo-wrapper">
+                        <p class="header-txt is-mini is-no-height">採用特設ページ</p>
+                        <figure class="header-logo">
+                            <img src="./images/header-logo.png" alt="">
+                        </figure>
+                    </div>
+                    <!-- BURGER MENU -->
+                    <div class="hamburger-menu">
+                        <input type="checkbox" id="menu-btn-check">
+                        <label for="menu-btn-check" class="menu-btn"><span></span></label>
+                        <nav class="menu-content">
+                            <ul>
+                                <li>
+                                    <a href="#">メニューリンク1</a>
+                                </li>
+                                <li>
+                                    <a href="#">メニューリンク2</a>
+                                </li>
+                                <li>
+                                    <a href="#">メニューリンク3</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </header>
             <section id="top" class="l-top">
@@ -104,6 +113,7 @@
             </section>
             <section id="massage" class="l-message">
                 <h2>
+                    <span class="fadeUpTrigger">仕事を通じて</span>
                     <span class="fadeUpTrigger">女性の活躍する</span>
                     <span class="fadeUpTrigger">場所を創る</span>
                 </h2>
@@ -120,7 +130,7 @@
             </section>
             <section id="philosophy" class="l-philosophy">
                 <div class="l-vision">
-                    <figure class="l-vision-img is-rounded-right fadeUpTrigger">
+                    <figure class="l-vision-img is-rounded-right">
                         <img src="./images/vision-img.png" alt="">
                     </figure>
                     <div class="txtbox">
@@ -131,7 +141,7 @@
                             <span>ワクワクさせる！</span>
                         </h2>
                         <p class="is-mini fadeUpTrigger">
-                            女性が輝きながら働くことでこどもたちの世界もワクワクに
+                            女性が輝きながら働くことでこどもたちの世界もワクワクに!
                         </p>
                     </div>
                 </div>
@@ -149,7 +159,7 @@
                             <span>女性の活躍する場所を創る</span>
                         </h2>
                         <p class="is-mini fadeUpTrigger">
-                            女性が輝きながら働くことでこどもたちの世界もワクワクに
+                            びっくりするほど美味しいベーグルで今日もだれかを幸せに
                         </p>
                     </div>
                 </div>
@@ -197,6 +207,7 @@
                     </div>
                 </div>
             </section>
+            <!-- IMG SLIDER -->
             <section id="slide1" class="l-slide1">
                 <div class="d-demo">
                     <div class="d-demo__wrap">
@@ -205,16 +216,36 @@
                             <li class="d-demo__item"><img src="./images/test02.png" alt></li>
                             <li class="d-demo__item"><img src="./images/test03.png" alt></li>
                             <li class="d-demo__item"><img src="./images/test04.png" alt></li>
-                            <li class="d-demo__item"><img src="./images/test05.jpg" alt></li>
-                            <li class="d-demo__item"><img src="./images/test06.jpg" alt></li>
+                            <li class="d-demo__item"><img src="./images/test05.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test06.png" alt></li>
                         </ul>
                         <ul class="d-demo__list d-demo__list--left">
-                            <li class="d-demo__item"><img src="./images/test01.jpg" alt></li>
-                            <li class="d-demo__item"><img src="./images/test02.jpg" alt></li>
-                            <li class="d-demo__item"><img src="./images/test03.jpg" alt></li>
-                            <li class="d-demo__item"><img src="./images/test04.jpg" alt></li>
-                            <li class="d-demo__item"><img src="./images/test05.jpg" alt></li>
-                            <li class="d-demo__item"><img src="./images/test06.jpg" alt></li>
+                            <li class="d-demo__item"><img src="./images/test01.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test02.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test03.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test04.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test05.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test06.png" alt></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-demo">
+                    <div class="d-demo__wrap">
+                        <ul class="d-demo__list d-demo__list--left d-demo2">
+                            <li class="d-demo__item"><img src="./images/test-a.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-b.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-c.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-d.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-e.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-f.png" alt></li>
+                        </ul>
+                        <ul class="d-demo__list d-demo__list--left">
+                            <li class="d-demo__item"><img src="./images/test-a.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-b.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-c.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-d.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-e.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-f.png" alt></li>
                         </ul>
                     </div>
                 </div>
@@ -232,7 +263,7 @@
                     <div class="l-group-box">
                         <div class="l-group-box1">
                             <div class="box-hover">
-                                <a href="">
+                                <a href="https://fukubagel.jp/company.php" target="_blank">
                                     <div class="flex-and-absolute">
                                         <h3 class="company-heading is-shadow">
                                             福ベーグル(株)
@@ -254,7 +285,7 @@
                         </div>
                         <div class="l-group-box2">
                             <div class="box-hover">
-                                <a href="">
+                                <a href="http://arigatocompany.co.jp/" target="_blank">
                                     <div class="flex-and-absolute">
                                         <h3 class="company-heading is-shadow">
                                             <span>ARIGATO</span>
@@ -311,18 +342,22 @@
                         <p class="normal">
                             福ベーグルグループで活躍する先輩たちをご紹介しています。
                         </p>
-                        <a href="">
-                            <button class="view-details">
-                                <div class="view-icon">
-                                    <img src="./images/btn-view-details.png" alt="">
+                        <div class="box-hover normal-box-hover">
+                            <a href="">
+                                <div class="is-absolute">
+                                    <button class="view-details">
+                                        <div class="view-icon">
+                                            <img src="./images/btn-view-details.png" alt="">
+                                        </div>
+                                        <p class="c-lead is-white is-shadow">詳しく見る</p>
+                                    </button>
                                 </div>
-                                <p class="c-lead">詳しく見る</p>
-                            </button>
-                        </a>
+                                <figure class="l-interview-img l-template-img">
+                                    <img src="./images/interview-img.png" alt="">
+                                </figure>
+                            </a>
+                        </div>
                     </div>
-                    <figure class="l-interview-img normal_img">
-                        <img src="./images/interview-img.png" alt="">
-                    </figure>
                     <p class="normal">インタビュー1</p>
                 </div>
             </section>
@@ -336,31 +371,81 @@
                         <p class="normal">
                             こんな方であれば福ベーグルでご活躍できる、そんな特徴をご紹介します。
                         </p>
-                        <a href="">
-                            <button class="view-details">
-                                <div class="view-icon">
-                                    <img src="./images/btn-view-details.png" alt="">
+                        <div class="box-hover normal-box-hover">
+                            <a href="">
+                                <div class="is-absolute">
+                                    <button class="view-details">
+                                        <div class="view-icon">
+                                            <img src="./images/btn-view-details.png" alt="">
+                                        </div>
+                                        <p class="c-lead is-white is-shadow">詳しく見る</p>
+                                    </button>
                                 </div>
-                                <p class="c-lead">詳しく見る</p>
-                            </button>
-                        </a>
+                                <figure class="l-interview-img l-template-img">
+                                    <img src="./images/requirement-img.png" alt="">
+                                </figure>
+                            </a>
+                        </div>
                     </div>
-                    <figure class="l-interview-img l-template_img">
-                        <img src="" alt="">
-                    </figure>
                 </div>
             </section>
+
+            <!-- IMG SLIDER 2-->
+            <section id="slide2" class="l-slide2">
+                <div class="d-demo">
+                    <div class="d-demo__wrap">
+                        <ul class="d-demo__list d-demo__list--left">
+                            <li class="d-demo__item"><img src="./images/test01.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test02.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test03.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test04.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test05.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test06.png" alt></li>
+                        </ul>
+                        <ul class="d-demo__list d-demo__list--left">
+                            <li class="d-demo__item"><img src="./images/test01.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test02.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test03.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test04.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test05.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test06.png" alt></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-demo">
+                    <div class="d-demo__wrap">
+                        <ul class="d-demo__list d-demo__list--left d-demo2">
+                            <li class="d-demo__item"><img src="./images/test-a.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-b.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-c.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-d.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-e.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-f.png" alt></li>
+                        </ul>
+                        <ul class="d-demo__list d-demo__list--left">
+                            <li class="d-demo__item"><img src="./images/test-a.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-b.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-c.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-d.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-e.png" alt></li>
+                            <li class="d-demo__item"><img src="./images/test-f.png" alt></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- RECRUIT -->
             <section id="recruit" class="l-recruit">
                 <div class="l-recruit-inner">
                     <h2 class="c-lead">
                         RECRUIT
                     </h2>
-                    <p class="c-lead">
+                    <p class="c-recruit">
                         未経験からでも勇気を持って始めたスタッフも
                         多いです！一緒に活躍していきませんか？
                     </p>
-                    <button class="l-recruit-btn">
-                        <a href="">応募する</a>
+                    <button class="l-recruit-btn btn bgleft">
+                        <a href=""><span>応募する</span></a>
                     </button>
                 </div>
             </section>
@@ -370,7 +455,7 @@
         <figure class="l-footer-logo">
             <img src="./images/footer-logo.png" alt="">
         </figure>
-        <p class="copyright">
+        <p class="copyright is-mini">
             &copy; Fuku Bagel Group All rights reserved.
         </p>
     </footer>

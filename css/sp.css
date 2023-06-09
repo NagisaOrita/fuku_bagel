@@ -1,0 +1,10 @@
+@media screen and (max-width:425px) {
+    .l-container-bg{
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .l-container-bg ul{
+        display: none;
+    }
+}
