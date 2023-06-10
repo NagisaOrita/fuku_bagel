@@ -60,13 +60,13 @@ button {
 
 /* FONT DEFINE */
 h1 {
-    font-family: 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic","游ゴシック体", "游ゴシック", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
+    font-family: "Poppins", 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic","游ゴシック体", "游ゴシック", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
     font-style: normal;
     font-weight: 400;
 }
 
 h2 {
-    font-family: 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic","游ゴシック体", "游ゴシック", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
+    font-family: "Poppins", 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic","游ゴシック体", "游ゴシック", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -76,7 +76,7 @@ h2 {
 
 p.title {
     color: var(--red);
-    font-family: 'Zen Kurenaido', 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic", "游ゴシック体", "游ゴシック", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
+    font-family: "Poppins", 'Zen Kurenaido', 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic", "游ゴシック体", "游ゴシック", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
