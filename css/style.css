@@ -164,6 +164,7 @@
     height: 182px;
     width: 100%;
     transition:1s all;
+    border-radius: 20px;
 }
 
 .view-details{
@@ -182,6 +183,7 @@
 }
 .group-tomorrow-img{
     background-image: url(../images/bg-tomorrow.png);
+    border-radius: 20px;
 }
 
 .company-heading span{
@@ -242,4 +244,8 @@ p.normal{
 .l-template-img:hover{
     transform:scale(1.2,1.2);
     opacity: .8;
+}
+
+.normal{
+    margin-top: 10px;
 }
