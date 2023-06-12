@@ -16,8 +16,8 @@ window.onload = function () {
 
     var center = {};    // Canvas中央
     var dots = [];      // パーティクル配列
-    var density = 3;  //パーティクルの数
-    var colors = ['#FF9696','#FF9696', '#FFE3E3', '#FFE070', '#B3F3BA'];
+    var density = 4;  //パーティクルの数
+    var colors = ['#FF9696', '#FF9696', '#FFE3E3', '#FFE070', '#B3F3BA'];
     var baseSize = 2;   // 大きさ
     var baseSpeed = 10000000000000; // スピード
 
@@ -64,6 +64,22 @@ window.onload = function () {
             ctx.arc(this.pos.x, this.pos.y, this.size, 0, 2 * Math.PI, false);
             ctx.fill();
         }
+    };
+
+    // ドーナツ空洞作成コード
+    Dot.prototype.draw = function () {
+        ctx.fillStyle = this.color;
+        ctx.beginPath();
+        ctx.arc(this.pos.x, this.pos.y, this.size, 0, 2 * Math.PI, false);
+        ctx.fill();
+
+        // ドーナツの空洞を描画
+        var holeSize = this.size / 3; // 空洞の大きさを調整する値
+        ctx.fillStyle = '#ffffff'; // 空洞の色
+
+        ctx.beginPath();
+        ctx.arc(this.pos.x, this.pos.y, holeSize , 0, 2 * Math.PI, false);
+        ctx.fill();
     };
 
     function update() {
