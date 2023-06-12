@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: 'Poppins', 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
+    font-family: 'Poppins', 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic", "游ゴシック体", "游ゴシック", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
     height: 100%;
     font-weight: 500;
     font-size: 1.5rem;
@@ -60,13 +60,13 @@ button {
 
 /* FONT DEFINE */
 h1 {
-    font-family: "senobi-gothic", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
+    font-family: "Poppins", 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic","游ゴシック体", "游ゴシック", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
     font-style: normal;
     font-weight: 400;
 }
 
 h2 {
-    font-family: 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
+    font-family: "Poppins", 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic","游ゴシック体", "游ゴシック", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -76,7 +76,7 @@ h2 {
 
 p.title {
     color: var(--red);
-    font-family: 'Zen Kurenaido', 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
+    font-family: "Poppins", 'Zen Kurenaido', 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic", "游ゴシック体", "游ゴシック", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -143,7 +143,7 @@ p.is-mini {
 }
 
 p.cute_en {
-    font-family: 'Zen Kurenaido', 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
+    font-family: 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic","游ゴシック体", "游ゴシック", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -224,6 +224,16 @@ p.c-lead {
     margin-bottom: 10px;
 }
 
+.is-overflow{
+    height: 100vh;
+}
+.is-opacity0{
+    opacity: 0;
+}
+
+.is-none{
+    display: none;
+}
 /* BORDER RADIUS FOR IMAGE */
 .is-rounded {
     border-radius: 20px;
@@ -302,6 +312,8 @@ p.c-lead {
 .itemC {
     background: var(--red);
     margin-right: calc(425px /2);
+    display: flex;
+    align-items: center;
 }
 
 /* PC BG IMAGE  CHANGE ANIMATION*/
@@ -375,6 +387,39 @@ p.c-lead {
     }
 }
 
+/* PC 応募ボタン と 先輩の声ボタン */
+.itemA{
+    position: relative;
+}
+.fix-menu{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+.fix-menu-inner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: all .8s;
+}
+.fix-menu-inner:hover{
+    opacity: .5;
+}
+.fix-menu img{
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: center;
+}
+/* 先輩の声ボタン SPバージョン */
+.sp-menu{
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+    /* transform: translateX(-50%); */
+}
 /* MAIN COMMON*/
 .l-contents {
     position: relative;
@@ -432,14 +477,16 @@ h2.c-lead::before {
 /* HEADER */
 .l-header {
     position: fixed;
-    width: 425px;
-    height: 100vh;
-    overflow: hidden;
+    width: 100%;
+    max-width: 425px;
+    /* height: 100vh; */
+    /* overflow: hidden; */
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
     z-index: 100;
     /* background: #fff; */
+    transition: all 10s ease-in-out;
 }
 .l-header-inner{
     height: 60px;
@@ -531,7 +578,7 @@ h2.c-lead::before {
 }
 
 .menu-content ul {
-    padding: 70px 10px 0;
+    padding: 70px 40px 0;
 }
 
 .menu-content ul li {
@@ -566,8 +613,9 @@ h2.c-lead::before {
     width: 100%;
     height: 100vh;
     position: absolute;
-    top: 0;
-    left: 100%;
+    top: -100vh;
+
+    /* left: 100%; */
     /*leftの値を変更してメニューを画面外へ*/
     z-index: 80;
     background-color: var(--red);
@@ -577,6 +625,7 @@ h2.c-lead::before {
 
 #menu-btn-check:checked~.menu-content {
     left: 0;
+    top: 0;
     /*メニューを画面内へ*/
 }
 
@@ -588,6 +637,8 @@ h2.c-lead::before {
 .l-contents,
 .l-footer {
     width: 425px;
+    width: 100%;
+    max-width: 425px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -603,8 +654,8 @@ h2.c-lead::before {
     margin-bottom: 20px;
 }
 
+/* PC 左ナビメニュー｣ */
 .l-container-navi-list {
-    margin-top: 60px;
     margin-left: 6.25vw;
 }
 
@@ -614,6 +665,7 @@ h2.c-lead::before {
     font-size: 18px;
     line-height: 34px;
     letter-spacing: 1.2px;
+    transition: all 0.3s ease-out;
 }
 
 .l-container-navi-item:not(:last-child) {
@@ -630,6 +682,7 @@ h2.c-lead::before {
     vertical-align: top;
     margin-top: 12px;
     margin-right: 15px;
+    transition: all 0.3s ease-out;
 }
 
 .l-container-navi-item:hover a,
@@ -769,4 +822,23 @@ _:-ms-lang(x)::-ms-backdrop,
 .bgleft:hover a:before {
     transform-origin: left top;
     transform: scale(1, 1);
+}
+
+/* BTN HOVER NAVI RECRUIT */
+.menu-content .btn a {
+    background: #fff;
+}
+
+/*ボタン内spanの形状*/
+.menu-content .btn span {
+    color: var(--red);
+}
+
+.menu-content .btn:hover span {
+    color: #fff;
+}
+
+/*== 背景が流れる（左から右） */
+.menu-content .bgleft a:before {
+    background: var(--red);
 }
