@@ -142,7 +142,6 @@
     gap: 30px;
 }
 .box-hover{
-    height: 182px;
     width: 100%;
     margin: 0 auto;
     position: relative;
@@ -221,13 +220,9 @@ p.normal{
     margin-bottom: 10px;
 }
 
-.normal-box-hover{
-    height: 210px;
-}
 .l-template-img{
     background-size: cover;
     background-position: center center;
-    height: 210px;
     width: 100%;
     transition:1s all;
     transition: transform .6s ease;
@@ -238,7 +233,7 @@ p.normal{
     right: 0;
     z-index: 1;
     padding: 6px 16px;
-    margin-bottom: 14px;
+    margin-bottom: 3.3%;
 }
 
 .l-template-img:hover{

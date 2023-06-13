@@ -2,6 +2,19 @@
     .l-container-bg{
         display: none;
     }
+    .l-merit-box-heading::after{
+        width: 40.7vw;
+    }
+}
+@media screen and (max-width:375px) {
+    .l-merit-box-heading::after{
+        width: 35.7vw;
+    }
+}
+@media screen and (max-width:320px) {
+    .l-merit-box-heading::after{
+        width: 25.7vw;
+    }
 }
 @media screen and (max-width:768px) {
     .l-container-bg ul{
