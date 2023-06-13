@@ -18,12 +18,12 @@ window.onload = function () {
     var dots = [];      // パーティクル配列
     var density = 4;  //パーティクルの数
     var colors = ['#FF9696', '#FF9696', '#FFE3E3', '#FFE070', '#B3F3BA'];
-    var baseSize = 2;   // 大きさ
+    var baseSize = 8;   // 大きさ
     var baseSpeed = 10000000000000; // スピード
 
 
     var Dot = function () {
-        this.size = Math.floor(Math.random() * 80) + baseSize; //大きさ
+        this.size = Math.floor(Math.random() * 60) + baseSize; //大きさ
         this.color = colors[~~(Math.random() * 5)]; //色
         this.speed = this.size / baseSpeed; // 大きさによって速度変更
         this.pos = {   // 位置
