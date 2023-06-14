@@ -19,13 +19,13 @@ window.onload = function () {
     var density = 4;  //パーティクルの数
     var colors = ['#FF9696', '#FF9696', '#FFE3E3', '#FFE070', '#B3F3BA'];
     var baseSize = 8;   // 大きさ
-    var baseSpeed = 10000000000000; // スピード
+    var baseSpeed = 0.01; // スピード
 
 
     var Dot = function () {
         this.size = Math.floor(Math.random() * 60) + baseSize; //大きさ
         this.color = colors[~~(Math.random() * 5)]; //色
-        this.speed = this.size / baseSpeed; // 大きさによって速度変更
+        this.speed = this.size * baseSpeed; // 大きさによって速度変更
         this.pos = {   // 位置
             x: Math.random() * canvas.width,
             y: Math.random() * canvas.height
@@ -43,8 +43,8 @@ window.onload = function () {
         update: function () {
             this.draw();
 
-            this.pos.x += this.vec.x;
-            this.pos.y += this.vec.y;
+            this.pos.x += this.vec.x * this.speed; //Chat GPTによる追加
+            this.pos.y += this.vec.y * this.speed; //Chat GPTによる追加
 
             // 画面外に出たら反対へ再配置
             if (this.pos.x > canvas.width + 10) {
