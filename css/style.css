@@ -244,3 +244,11 @@ p.normal{
 .normal{
     margin-top: 10px;
 }
+
+/* DECK */
+.l-deck{
+    margin-top: 80px;
+}
+.deck-wrapper{
+    margin: 0 20px;
+}
