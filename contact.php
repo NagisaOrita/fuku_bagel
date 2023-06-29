@@ -28,10 +28,6 @@
     if ((strpos($ua, 'Android') !== false) && (strpos($ua, 'Mobile') !== false) || (strpos($ua, 'iPhone') !== false) || (strpos($ua, 'Windows Phone') !== false)) {
         ?>
 
-
-    <?php } elseif ((strpos($ua, 'Android') !== false) || (strpos($ua, 'iPad') !== false)) { ?>
-
-
     <?php } else { ?>
         <div class="l-container-bg">
             <nav class="l-container-navi itemC">
@@ -150,8 +146,7 @@
                             </li>
                         </ul>
                         <button class="l-recruit-btn btn bgleft">
-                            <a href="https://employment.en-japan.com/apply/form/?WorkID=1234948&aroute=0&arearoute=1"
-                                target="_blank"><span>応募する</span></a>
+                            <a href="./contact.php"><span>応募する</span></a>
                         </button>
                     </nav>
                 </div>
