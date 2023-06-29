@@ -1,0 +1,748 @@
+    .l-container-bg{
+        display: none!important;
+    }
+
+    html {
+        height: 100%;
+        font-size: 62.5%;
+    }
+    
+    body {
+        font-family: 'Poppins', 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic", "游ゴシック体", "游ゴシック", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
+        height: 100%;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 28px;
+        letter-spacing: 1.2px;
+        color: #3C474F;
+        margin: 0;
+    }
+    
+    img {
+        border: 0;
+        max-width: 100%;
+        height: auto;
+        vertical-align: bottom;
+        object-fit: cover;
+    }
+    
+    figure {
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #45484C;
+        display: block;
+    }
+    
+    li {
+        list-style-type: none;
+    }
+    
+    .c-button {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border: 0;
+        border-radius: 0;
+        background: #ccc;
+    }
+    
+    button {
+        background: none;
+        border: none;
+        outline: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        padding: 0;
+    }
+    
+    /* FONT DEFINE */
+    h1 {
+        font-family: "Poppins", 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic","游ゴシック体", "游ゴシック", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+    
+    h2 {
+        font-family: "Poppins", 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic","游ゴシック体", "游ゴシック", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+        letter-spacing: 1.2px;
+    }
+    
+    p.title {
+        color: var(--red);
+        font-family: "Poppins", 'Zen Kurenaido', 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic", "游ゴシック体", "游ゴシック", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 8px;
+    }
+    
+    p.btn {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 160% */
+        letter-spacing: 0.32px;
+    }
+    
+    li.pc-menu {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 34px;
+        /* identical to box height, or 187% */
+        letter-spacing: 1.2px;
+        color: #FFFFFF;
+    }
+    
+    li.burger-menu {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 34px;
+        /* identical to box height, or 187% */
+        letter-spacing: 1.2px;
+        color: #FFFFFF;
+    }
+    
+    h2.l-message {
+        letter-spacing: 3.4px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    p.l-message {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 34px;
+        letter-spacing: 0.8px;
+    }
+    
+    h2.l-vision {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 34px;
+        /* identical to box height, or 153% */
+        letter-spacing: 1.6px;
+    }
+    
+    p.is-mini {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 22px;
+        /* or 216% */
+        letter-spacing: 1.2px;
+    }
+    
+    p.cute_en {
+        font-family: 'Zen Kaku Gothic New', 'Zen Kaku Gothic Antique', "yugothic", "yu-gothic","游ゴシック体", "游ゴシック", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: var(--red);
+    }
+    
+    p.l-merit-text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 34px;
+        /* or 168% */
+        letter-spacing: 1.2px;
+    }
+    
+    h3.l-group-heading {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 34px;
+        letter-spacing: 1.2px;
+        color: #fff;
+    }
+    
+    .company-heading {
+        font-size: 20px;
+        line-height: 34px;
+        letter-spacing: 1.2px;
+        color: #FFFFFF;
+    }
+    
+    
+    h2.c-lead {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.03em;
+    }
+    
+    p.c-lead {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 0.32px;
+    }
+    
+    .l2-heading {
+        margin-bottom: 10px;
+    }
+    
+    /* FONT OPTION */
+    .is-shadow {
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.18);
+    }
+    
+    .is-white {
+        color: #fff;
+    }
+    
+    .is-red {
+        color: var(--red);
+    }
+    
+    .is-black {
+        color: var(--black);
+    }
+    
+    .is-22 {
+        font-size: 22px;
+        line-height: 34px;
+        letter-spacing: 1.6px;
+    }
+    
+    .is-no-height {
+        line-height: 10px !important;
+    }
+    
+    .is-marginbot10 {
+        margin-bottom: 10px;
+    }
+    
+    .is-overflow{
+        height: 100vh;
+    }
+    .is-opacity0{
+        opacity: 0;
+    }
+    
+    .is-none{
+        display: none;
+    }
+    /* BORDER RADIUS FOR IMAGE */
+    .is-rounded {
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    
+    .is-rounded-left {
+        border-top-left-radius: 20px;
+        -webkit-border-top-left-radius: 20px;
+        -moz-border-radius-topleft: 20px;
+        border-bottom-left-radius: 20px;
+        -webkit-border-bottom-left-radius: 20px;
+        -moz-border-radius-bottomleft: 20px;
+        overflow: hidden;
+    }
+    
+    .is-rounded-right {
+        border-top-right-radius: 20px;
+        -webkit-border-top-right-radius: 20px;
+        -moz-border-radius-topright: 20px;
+        border-bottom-right-radius: 20px;
+        -webkit-border-bottom-right-radius: 20px;
+        -moz-border-radius-bottomright: 20px;
+        overflow: hidden;
+    }
+    
+    
+    /* COLOR DEFINE */
+    :root {
+        --red: #C43238;
+        --lightyellow: #FDF4A8;
+        --yellow: #FFE400;
+        --blue: #009FBC;
+        --darkblue: #194369;
+        --black: #3C474F;
+    }
+    
+    /* MAIN COMMON*/
+    .l-contents {
+        position: relative;
+    }
+    
+    .l-contents-wrapper {
+        z-index: 10;
+    }
+    
+    /* RECRUIT */
+    .l-recruit {
+        margin-top: 80px;
+    }
+    
+    .l-recruit-inner {
+        background: var(--red);
+        color: #fff;
+        padding: 40px;
+    }
+    
+    h2.c-lead::before {
+        content: "";
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        border-radius: 100px;
+        background-color: #fff;
+        vertical-align: top;
+        margin-top: 6px;
+        margin-right: 5px;
+    }
+    
+    .l-recruit-btn {
+        text-align: center;
+        display: block;
+        margin: 20px auto 0;
+    }
+    
+    .l-recruit-btn a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.32px;
+        color: #FFFFFF;
+        padding: 10px 90px;
+        border: solid 1px #fff;
+        border-radius: 100px;
+    }
+    
+    .l-recruit h2.c-lead {
+        margin-bottom: 10px;
+    }
+    
+    /* HEADER */
+    .l-header {
+        position: fixed;
+        width: 100%;
+        max-width: 425px;
+        /* height: 100vh; */
+        /* overflow: hidden; */
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        z-index: 100;
+        /* background: #fff; */
+        transition: all 10s ease-in-out;
+    }
+    .l-header-inner{
+        height: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background: #fff;
+    }
+    
+    .header-logo {
+        width: 15rem;
+    }
+    
+    .header-logo-wrapper {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    
+    /* BURGER MENU */
+    .hamburger-menu {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 0 0 auto;
+    }
+    
+    .menu-btn {
+        /* top: 50%; */
+        right: 0;
+        display: flex;
+        height: 60px;
+        width: 60px;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+        background-color: var(--red);
+    }
+    
+    .menu-btn span,
+    .menu-btn span:before,
+    .menu-btn span:after {
+        content: '';
+        display: block;
+        height: 3px;
+        width: 25px;
+        border-radius: 3px;
+        background-color: #ffffff;
+        position: absolute;
+    }
+    
+    .menu-btn span:before {
+        bottom: 8px;
+    }
+    
+    .menu-btn span:after {
+        top: 8px;
+    }
+    
+    #menu-btn-check:checked~.menu-btn span {
+        background-color: rgba(255, 255, 255, 0);
+        /*メニューオープン時は真ん中の線を透明にする*/
+    }
+    
+    #menu-btn-check:checked~.menu-btn span::before {
+        bottom: 0;
+        transform: rotate(45deg);
+    }
+    
+    #menu-btn-check:checked~.menu-btn span::after {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+    
+    #menu-btn-check {
+        display: none;
+    }
+    
+    #menu-btn-check {
+        display: none;
+    }
+    
+    .menu-content {
+        width: 100em;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 80;
+        background-color: var(--red);
+    }
+    
+    .menu-content ul {
+        padding: 70px 40px 0;
+    }
+    
+    .menu-content ul li {
+        border-bottom: solid 1px #ffffff;
+        list-style: none;
+    }
+    
+    .menu-content ul li a {
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        box-sizing: border-box;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 9px 15px 10px 0;
+        position: relative;
+    }
+    
+    .menu-content ul li a::before {
+        content: "";
+        width: 7px;
+        height: 7px;
+        border-top: solid 2px #ffffff;
+        border-right: solid 2px #ffffff;
+        transform: rotate(45deg);
+        position: absolute;
+        right: 11px;
+        top: 16px;
+    }
+    
+    .menu-content {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: -100vh;
+    
+        /* left: 100%; */
+        /*leftの値を変更してメニューを画面外へ*/
+        z-index: 80;
+        background-color: var(--red);
+        transition: all 0.5s;
+        /*アニメーション設定*/
+    }
+    
+    #menu-btn-check:checked~.menu-content {
+        left: 0;
+        top: 0;
+        /*メニューを画面内へ*/
+    }
+    
+    #menu-btn-check:checked~.menu-content {
+        left: 0;
+        /*メニューを画面内へ*/
+    }
+    
+    .l-contents,
+    .l-footer {
+        width: 425px;
+        width: 100%;
+        max-width: 425px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    /* FOOTER */
+    .l-footer-logo {
+        width: 300px;
+        margin: 40px auto 20px;
+    }
+    .footer-logo-inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .copyright {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    /* PC 左ナビメニュー｣ */
+    .l-container-navi-list {
+        margin-left: 6.25vw;
+    }
+    
+    .l-container-navi-item a {
+        color: #fff;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 34px;
+        letter-spacing: 1.2px;
+        transition: all 0.3s ease-out;
+    }
+    
+    .l-container-navi-item:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    
+    .l-container-navi-item a::before {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 100px;
+        background-color: #fff;
+        vertical-align: top;
+        margin-top: 12px;
+        margin-right: 15px;
+        transition: all 0.3s ease-out;
+    }
+    
+    .l-container-navi-item:hover a,
+    .l-container-navi-item:hover a::before {
+        color: var(--black);
+    }
+    
+    .l-container-navi-item:hover a::before {
+        color: var(--black);
+        background-color: var(--black);
+    }
+    
+    
+    
+    
+    /* SLIDE ANIMATION */
+    /*
+    右から左へ
+    ----------------------------*/
+    @keyframes infinity-scroll-left {
+        from {
+            transform: translateX(0);
+        }
+    
+        to {
+            transform: translateX(-100%);
+        }
+    }
+    
+    /*左から右へ----------------------------*/
+    @keyframes infinity-scroll-right {
+        from {
+            transform: translateX(-100%);
+        }
+    
+        to {
+            transform: translateX(0%);
+        }
+    }
+    
+    /*IE11対策----------------------------*/
+    _:-ms-lang(x)::-ms-backdrop,
+    .d-demo {
+        display: -ms-grid;
+        overflow: hidden;
+    }
+    
+    /*----------------------------*/
+    .d-demo__wrap {
+        display: flex;
+        overflow: hidden;
+    }
+    
+    .d-demo__list {
+        display: flex;
+        list-style: none;
+    }
+    
+    .d-demo__list--left {
+        animation: infinity-scroll-left 95s infinite linear 0.5s both;
+    }
+    
+    .d-demo__list--right {
+        animation: infinity-scroll-right 95s infinite linear 0.5s both;
+    }
+    
+    .d-demo__item {
+        width: calc(100vw / 6);
+        height: calc(100vw / 6);
+        width: 135px;
+        height: 135px;
+        margin-right: 5px;
+        overflow: hidden;
+    }
+    
+    .d-demo__item>img {
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .d-demo2 {
+        margin-top: 5px;
+        margin-left: calc(-135px/2);
+    }
+    
+    /* BTN HOVER RECRUIT */
+    .btn a {
+        /*アニメーションの起点とするためrelativeを指定*/
+        position: relative;
+        overflow: hidden;
+        /*ボタンの形状*/
+        text-decoration: none;
+        display: inline-block;
+        border: 1px solid #fff;
+        /* ボーダーの色と太さ */
+        /* padding: 10px 30px; */
+        text-align: center;
+        outline: none;
+        /*アニメーションの指定*/
+        transition: ease .2s;
+    }
+    
+    /*ボタン内spanの形状*/
+    .btn span {
+        position: relative;
+        z-index: 3;
+        /*z-indexの数値をあげて文字を背景よりも手前に表示*/
+        color: #fff;
+    
+        transition: ease 0s;
+    }
+    
+    .btn:hover span {
+        color: var(--red);
+    }
+    
+    /*== 背景が流れる（左から右） */
+    .bgleft a:before {
+        content: '';
+        /*絶対配置で位置を指定*/
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        /*色や形状*/
+        background: #fff;
+        /*背景色*/
+        width: 100%;
+        height: 100%;
+        /*アニメーション*/
+        transition: transform .6s cubic-bezier(0.8, 0, 0.2, 1) 0s;
+        transform: scale(0, 1);
+        transform-origin: right top;
+    }
+    
+    /*hoverした際の形状*/
+    .bgleft:hover a:before {
+        transform-origin: left top;
+        transform: scale(1, 1);
+    }
+    
+    /* BTN HOVER NAVI RECRUIT */
+    .menu-content .btn a {
+        background: #fff;
+    }
+    
+    /*ボタン内spanの形状*/
+    .menu-content .btn span {
+        color: var(--red);
+    }
+    
+    .menu-content .btn:hover span {
+        color: #fff;
+    }
+    
+    /*== 背景が流れる（左から右） */
+    .menu-content .bgleft a:before {
+        background: var(--red);
+    }
+    
+    
+    
+    /* コンタクトページ HOVER アニメーション */
+    .contact-container .submit-btn {
+        position: relative;
+        overflow: hidden;
+        text-decoration: none;
+        display: inline-block;
+        border: 1px solid #C43238;
+        padding: 10px 30px;
+        text-align: center;
+        outline: none;
+        transition: ease .2s;
+        color: #fff;
+        background-color: #C43238;
+    }
+    
+    .contact-container .submit-btn span {
+        position: relative;
+        z-index: 3;
+        color: #fff;
+        transition: ease 0s;
+    }
+    
+    .contact-container .submit-btn:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        background: #C43238;
+        width: 100%;
+        height: 100%;
+        transition: transform .6s cubic-bezier(0.8, 0, 0.2, 1) 0s;
+        transform: scale(0, 1);
+        transform-origin: right top;
+    }
+    
+    .contact-container .submit-btn:hover:before {
+        transform-origin: left top;
+        transform: scale(1, 1);
+    }
+    
